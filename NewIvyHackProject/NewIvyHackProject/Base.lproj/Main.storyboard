@@ -16,7 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path" translatesAutoresizingMaskIntoConstraints="NO" id="0Rx-yZ-Lvj" userLabel="yellowBackgroundImageView">
                                 <rect key="frame" x="-8" y="0.0" width="431" height="638"/>
                             </imageView>
@@ -44,7 +43,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-=======
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQa-dJ-65S">
                                 <rect key="frame" x="164" y="503" width="86" height="48"/>
                                 <color key="backgroundColor" name="AccentColor"/>
@@ -67,12 +65,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
->>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="isT-ML-h14"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-<<<<<<< HEAD
                             <constraint firstItem="isT-ML-h14" firstAttribute="trailing" secondItem="8ha-jS-afs" secondAttribute="trailing" constant="82" id="1vS-8v-fA3"/>
                             <constraint firstItem="Fgg-VF-HiS" firstAttribute="leading" secondItem="isT-ML-h14" secondAttribute="leading" constant="64" id="GqJ-1T-ao1"/>
                             <constraint firstItem="8ha-jS-afs" firstAttribute="leading" secondItem="isT-ML-h14" secondAttribute="leading" constant="82" id="J7g-yU-aiM"/>
@@ -89,87 +85,10 @@
                             <constraint firstItem="0Rx-yZ-Lvj" firstAttribute="top" secondItem="zZO-DZ-C8H" secondAttribute="top" id="v1Z-93-Riu"/>
                         </constraints>
                     </view>
-=======
-                            <constraint firstItem="bJP-VQ-Ybh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8tT-gB-qpp"/>
-                            <constraint firstItem="bJP-VQ-Ybh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="382" id="DLX-dg-RPh"/>
-                            <constraint firstItem="rQa-dJ-65S" firstAttribute="centerX" secondItem="HnJ-Kb-okr" secondAttribute="centerX" id="JrO-hT-Pmh"/>
-                            <constraint firstItem="bJP-VQ-Ybh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dVK-9d-NW7"/>
-                            <constraint firstItem="HnJ-Kb-okr" firstAttribute="top" secondItem="bJP-VQ-Ybh" secondAttribute="bottom" constant="16" id="nA9-bR-g3k"/>
-                            <constraint firstItem="rQa-dJ-65S" firstAttribute="top" secondItem="HnJ-Kb-okr" secondAttribute="bottom" constant="23" id="pAE-ue-mPK"/>
-                            <constraint firstItem="rQa-dJ-65S" firstAttribute="centerX" secondItem="HnJ-Kb-okr" secondAttribute="centerX" id="sTn-mH-GTp"/>
-                            <constraint firstItem="HnJ-Kb-okr" firstAttribute="centerX" secondItem="bJP-VQ-Ybh" secondAttribute="centerX" id="uJA-WH-WRw"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="inputName" destination="bJP-VQ-Ybh" id="l6b-7e-bQQ"/>
-                        <outlet property="outputName" destination="HnJ-Kb-okr" id="NB2-nG-HaN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="140.57971014492756" y="62.946428571428569"/>
-        </scene>
-        <!--HomePage-->
-        <scene sceneID="bty-q0-8Ft">
-            <objects>
-                <viewController id="QB6-L0-lQL" userLabel="HomePage" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Sha-Ff-uzb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04L-vf-x7C">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.94999999999999996" height="1"/>
-                                <items>
-                                    <barButtonItem width="120" style="plain" id="GVL-8z-6xV">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="GXh-Wv-phg">
-                                            <rect key="frame" x="20" y="7" width="120" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="systemRedColor"/>
-                                            <state key="normal" title="Messages"/>
-                                            <connections>
-                                                <action selector="homeToMessageButton:" destination="Gqq-dw-Ucj" eventType="touchUpInside" id="wdx-6p-9rc"/>
-                                                <segue destination="BYZ-38-t0r" kind="presentation" id="zDh-dL-LHb"/>
-                                            </connections>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem width="120" style="plain" id="nIj-Qs-kEY">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="tJo-dc-qfd">
-                                            <rect key="frame" x="140" y="7" width="120" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                            <state key="normal" title="Profile"/>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem width="120" style="plain" id="6ot-tH-uwk">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ioL-0m-9ez">
-                                            <rect key="frame" x="274" y="7" width="120" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                            <state key="normal" title="Discover"/>
-                                            <connections>
-                                                <action selector="homeToDiscoverButton:" destination="Gqq-dw-Ucj" eventType="touchUpInside" id="2Ib-tF-urt"/>
-                                                <segue destination="w2Z-rD-fRc" kind="presentation" id="sak-ay-HXB"/>
-                                            </connections>
-                                        </button>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6BG-T6-KC0"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
->>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Fb-Fj-G10" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="544.92753623188412" y="547.76785714285711"/>
-=======
-            <point key="canvasLocation" x="864" y="76"/>
->>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
         </scene>
         <!--View Controller-->
         <scene sceneID="cva-YN-XwI">
@@ -200,7 +119,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-<<<<<<< HEAD
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jdh-IS-Zt8" userLabel="ageSegmentedControl">
                                 <rect key="frame" x="36" y="271" width="343" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -225,46 +143,6 @@
                                 <rect key="frame" x="51" y="806" width="50" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-=======
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlI-hO-6nU">
-                                <rect key="frame" x="0.0" y="775" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.94999999999999996" height="1"/>
-                                <items>
-                                    <barButtonItem width="120" style="plain" id="b73-r7-OPJ">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Yja-kr-qze">
-                                            <rect key="frame" x="20" y="7" width="120" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="systemRedColor"/>
-                                            <state key="normal" title="Messages"/>
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="presentation" id="6Lk-LM-UJV"/>
-                                            </connections>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem width="120" style="plain" id="oR4-nS-iCl">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nPL-6c-Fd0">
-                                            <rect key="frame" x="140" y="7" width="120" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                            <state key="normal" title="Profile"/>
-                                            <connections>
-                                                <segue destination="QB6-L0-lQL" kind="presentation" id="lQg-ur-6tz"/>
-                                            </connections>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem width="120" style="plain" id="Tr7-fF-1zH">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="fch-no-eSY">
-                                            <rect key="frame" x="274" y="7" width="120" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                            <state key="normal" title="Discover"/>
-                                        </button>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
->>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GWB-oN-9mq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -289,15 +167,9 @@
                         </constraints>
                     </view>
                 </viewController>
-<<<<<<< HEAD
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TAX-dE-1Ul" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1273.913043478261" y="547.76785714285711"/>
-=======
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5lw-42-uUF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2006" y="76"/>
->>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
         </scene>
     </scenes>
     <resources>

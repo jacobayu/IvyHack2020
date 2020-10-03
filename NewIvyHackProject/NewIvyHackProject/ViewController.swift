@@ -11,11 +11,10 @@ class ViewController: UIViewController {
 
 
 <<<<<<< HEAD
-=======
-   
+
 
     
-   
+
 
 
 
@@ -34,8 +33,7 @@ class ViewController: UIViewController {
     }
 
 <<<<<<< HEAD
-  
-=======
+
 
 
     @IBAction func homeToMessageButton(_ sender: Any) {
@@ -49,6 +47,7 @@ class ViewController: UIViewController {
 
     }
 >>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
+
 
 
 }
