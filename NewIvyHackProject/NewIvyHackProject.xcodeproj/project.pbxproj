@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		135A66C52528E63E00947A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A66C42528E63E00947A07 /* AppDelegate.swift */; };
-		135A66C72528E63E00947A07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A66C62528E63E00947A07 /* SceneDelegate.swift */; };
-		135A66C92528E63E00947A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A66C82528E63E00947A07 /* ViewController.swift */; };
-		135A66CC2528E63E00947A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135A66CA2528E63E00947A07 /* Main.storyboard */; };
-		135A66CE2528E63F00947A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A66CD2528E63F00947A07 /* Assets.xcassets */; };
-		135A66D12528E63F00947A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135A66CF2528E63F00947A07 /* LaunchScreen.storyboard */; };
+		135A22472529032400091237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A22462529032400091237 /* AppDelegate.swift */; };
+		135A22492529032400091237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A22482529032400091237 /* SceneDelegate.swift */; };
+		135A224B2529032400091237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A224A2529032400091237 /* ViewController.swift */; };
+		135A224E2529032400091237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135A224C2529032400091237 /* Main.storyboard */; };
+		135A22502529032500091237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135A224F2529032500091237 /* Assets.xcassets */; };
+		135A22532529032500091237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135A22512529032500091237 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		135A66C12528E63E00947A07 /* IvyHack2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IvyHack2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		135A66C42528E63E00947A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		135A66C62528E63E00947A07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		135A66C82528E63E00947A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		135A66CB2528E63E00947A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		135A66CD2528E63F00947A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		135A66D02528E63F00947A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		135A66D22528E63F00947A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135A22432529032400091237 /* NewIvyHackProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewIvyHackProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		135A22462529032400091237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		135A22482529032400091237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		135A224A2529032400091237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		135A224D2529032400091237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		135A224F2529032500091237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		135A22522529032500091237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		135A22542529032500091237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		135A66BE2528E63E00947A07 /* Frameworks */ = {
+		135A22402529032400091237 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		135A66B82528E63E00947A07 = {
+		135A223A2529032400091237 = {
 			isa = PBXGroup;
 			children = (
-				135A66C32528E63E00947A07 /* IvyHack2020 */,
-				135A66C22528E63E00947A07 /* Products */,
+				135A22452529032400091237 /* NewIvyHackProject */,
+				135A22442529032400091237 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		135A66C22528E63E00947A07 /* Products */ = {
+		135A22442529032400091237 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				135A66C12528E63E00947A07 /* IvyHack2020.app */,
+				135A22432529032400091237 /* NewIvyHackProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		135A66C32528E63E00947A07 /* IvyHack2020 */ = {
+		135A22452529032400091237 /* NewIvyHackProject */ = {
 			isa = PBXGroup;
 			children = (
-				135A66C42528E63E00947A07 /* AppDelegate.swift */,
-				135A66C62528E63E00947A07 /* SceneDelegate.swift */,
-				135A66C82528E63E00947A07 /* ViewController.swift */,
-				135A66CA2528E63E00947A07 /* Main.storyboard */,
-				135A66CD2528E63F00947A07 /* Assets.xcassets */,
-				135A66CF2528E63F00947A07 /* LaunchScreen.storyboard */,
-				135A66D22528E63F00947A07 /* Info.plist */,
+				135A22462529032400091237 /* AppDelegate.swift */,
+				135A22482529032400091237 /* SceneDelegate.swift */,
+				135A224A2529032400091237 /* ViewController.swift */,
+				135A224C2529032400091237 /* Main.storyboard */,
+				135A224F2529032500091237 /* Assets.xcassets */,
+				135A22512529032500091237 /* LaunchScreen.storyboard */,
+				135A22542529032500091237 /* Info.plist */,
 			);
-			path = IvyHack2020;
+			path = NewIvyHackProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		135A66C02528E63E00947A07 /* IvyHack2020 */ = {
+		135A22422529032400091237 /* NewIvyHackProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 135A66D52528E63F00947A07 /* Build configuration list for PBXNativeTarget "IvyHack2020" */;
+			buildConfigurationList = 135A22572529032500091237 /* Build configuration list for PBXNativeTarget "NewIvyHackProject" */;
 			buildPhases = (
-				135A66BD2528E63E00947A07 /* Sources */,
-				135A66BE2528E63E00947A07 /* Frameworks */,
-				135A66BF2528E63E00947A07 /* Resources */,
+				135A223F2529032400091237 /* Sources */,
+				135A22402529032400091237 /* Frameworks */,
+				135A22412529032400091237 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IvyHack2020;
-			productName = IvyHack2020;
-			productReference = 135A66C12528E63E00947A07 /* IvyHack2020.app */;
+			name = NewIvyHackProject;
+			productName = NewIvyHackProject;
+			productReference = 135A22432529032400091237 /* NewIvyHackProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		135A66B92528E63E00947A07 /* Project object */ = {
+		135A223B2529032400091237 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					135A66C02528E63E00947A07 = {
+					135A22422529032400091237 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 135A66BC2528E63E00947A07 /* Build configuration list for PBXProject "IvyHack2020" */;
+			buildConfigurationList = 135A223E2529032400091237 /* Build configuration list for PBXProject "NewIvyHackProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 135A66B82528E63E00947A07;
-			productRefGroup = 135A66C22528E63E00947A07 /* Products */;
+			mainGroup = 135A223A2529032400091237;
+			productRefGroup = 135A22442529032400091237 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				135A66C02528E63E00947A07 /* IvyHack2020 */,
+				135A22422529032400091237 /* NewIvyHackProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		135A66BF2528E63E00947A07 /* Resources */ = {
+		135A22412529032400091237 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135A66D12528E63F00947A07 /* LaunchScreen.storyboard in Resources */,
-				135A66CE2528E63F00947A07 /* Assets.xcassets in Resources */,
-				135A66CC2528E63E00947A07 /* Main.storyboard in Resources */,
+				135A22532529032500091237 /* LaunchScreen.storyboard in Resources */,
+				135A22502529032500091237 /* Assets.xcassets in Resources */,
+				135A224E2529032400091237 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		135A66BD2528E63E00947A07 /* Sources */ = {
+		135A223F2529032400091237 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135A66C92528E63E00947A07 /* ViewController.swift in Sources */,
-				135A66C52528E63E00947A07 /* AppDelegate.swift in Sources */,
-				135A66C72528E63E00947A07 /* SceneDelegate.swift in Sources */,
+				135A224B2529032400091237 /* ViewController.swift in Sources */,
+				135A22472529032400091237 /* AppDelegate.swift in Sources */,
+				135A22492529032400091237 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		135A66CA2528E63E00947A07 /* Main.storyboard */ = {
+		135A224C2529032400091237 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				135A66CB2528E63E00947A07 /* Base */,
+				135A224D2529032400091237 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		135A66CF2528E63F00947A07 /* LaunchScreen.storyboard */ = {
+		135A22512529032500091237 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				135A66D02528E63F00947A07 /* Base */,
+				135A22522529032500091237 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		135A66D32528E63F00947A07 /* Debug */ = {
+		135A22552529032500091237 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		135A66D42528E63F00947A07 /* Release */ = {
+		135A22562529032500091237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,38 +281,38 @@
 			};
 			name = Release;
 		};
-		135A66D62528E63F00947A07 /* Debug */ = {
+		135A22582529032500091237 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2G2VPG99S;
-				INFOPLIST_FILE = IvyHack2020/Info.plist;
+				INFOPLIST_FILE = NewIvyHackProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jacob.IvyHack2020;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacob.NewIvyHackProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		135A66D72528E63F00947A07 /* Release */ = {
+		135A22592529032500091237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2G2VPG99S;
-				INFOPLIST_FILE = IvyHack2020/Info.plist;
+				INFOPLIST_FILE = NewIvyHackProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jacob.IvyHack2020;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacob.NewIvyHackProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		135A66BC2528E63E00947A07 /* Build configuration list for PBXProject "IvyHack2020" */ = {
+		135A223E2529032400091237 /* Build configuration list for PBXProject "NewIvyHackProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				135A66D32528E63F00947A07 /* Debug */,
-				135A66D42528E63F00947A07 /* Release */,
+				135A22552529032500091237 /* Debug */,
+				135A22562529032500091237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		135A66D52528E63F00947A07 /* Build configuration list for PBXNativeTarget "IvyHack2020" */ = {
+		135A22572529032500091237 /* Build configuration list for PBXNativeTarget "NewIvyHackProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				135A66D62528E63F00947A07 /* Debug */,
-				135A66D72528E63F00947A07 /* Release */,
+				135A22582529032500091237 /* Debug */,
+				135A22592529032500091237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 135A66B92528E63E00947A07 /* Project object */;
+	rootObject = 135A223B2529032400091237 /* Project object */;
 }

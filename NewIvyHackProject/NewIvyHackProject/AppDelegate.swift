@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  IvyHack2020
+//  NewIvyHackProject
 //
 //  Created by Jacob Au on 10/3/20.
 //
