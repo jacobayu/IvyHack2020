@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQa-dJ-65S">
-                                <rect key="frame" x="164" y="547" width="86" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQa-dJ-65S">
+                                <rect key="frame" x="164" y="503" width="86" height="48"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Button">
@@ -29,12 +29,12 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bJP-VQ-Ybh">
-                                <rect key="frame" x="20" y="426" width="374" height="46"/>
+                                <rect key="frame" x="20" y="382" width="374" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What's your name?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnJ-Kb-okr">
-                                <rect key="frame" x="82.5" y="488" width="249" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your name?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnJ-Kb-okr">
+                                <rect key="frame" x="82.5" y="444" width="249" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,6 +50,7 @@
                             <constraint firstItem="HnJ-Kb-okr" firstAttribute="top" secondItem="bJP-VQ-Ybh" secondAttribute="bottom" constant="16" id="nA9-bR-g3k"/>
                             <constraint firstItem="rQa-dJ-65S" firstAttribute="top" secondItem="HnJ-Kb-okr" secondAttribute="bottom" constant="23" id="pAE-ue-mPK"/>
                             <constraint firstItem="rQa-dJ-65S" firstAttribute="centerX" secondItem="HnJ-Kb-okr" secondAttribute="centerX" id="sTn-mH-GTp"/>
+                            <constraint firstItem="HnJ-Kb-okr" firstAttribute="centerX" secondItem="bJP-VQ-Ybh" secondAttribute="centerX" id="uJA-WH-WRw"/>
                         </constraints>
                     </view>
                     <connections>
