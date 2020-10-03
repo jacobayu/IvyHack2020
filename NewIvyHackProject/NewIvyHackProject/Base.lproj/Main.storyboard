@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QB6-L0-lQL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -13,50 +13,157 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NewIvyHackProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="n3b-M8-saV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="141" y="63"/>
+            <point key="canvasLocation" x="864" y="950"/>
         </scene>
-        <!--View Controller-->
+        <!--HomePage-->
         <scene sceneID="bty-q0-8Ft">
             <objects>
-                <viewController id="QB6-L0-lQL" sceneMemberID="viewController">
+                <viewController id="QB6-L0-lQL" userLabel="HomePage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sha-Ff-uzb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04L-vf-x7C">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.94999999999999996" height="1"/>
+                                <items>
+                                    <barButtonItem width="120" style="plain" id="GVL-8z-6xV">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="GXh-Wv-phg">
+                                            <rect key="frame" x="20" y="7" width="120" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                                            <state key="normal" title="Messages"/>
+                                            <connections>
+                                                <action selector="homeToMessageButton:" destination="Gqq-dw-Ucj" eventType="touchUpInside" id="wdx-6p-9rc"/>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="zDh-dL-LHb"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="120" style="plain" id="nIj-Qs-kEY">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="tJo-dc-qfd">
+                                            <rect key="frame" x="140" y="7" width="120" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                            <state key="normal" title="Profile"/>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="120" style="plain" id="6ot-tH-uwk">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ioL-0m-9ez">
+                                            <rect key="frame" x="274" y="7" width="120" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                            <state key="normal" title="Discover"/>
+                                            <connections>
+                                                <action selector="homeToDiscoverButton:" destination="Gqq-dw-Ucj" eventType="touchUpInside" id="2Ib-tF-urt"/>
+                                                <segue destination="w2Z-rD-fRc" kind="presentation" id="sak-ay-HXB"/>
+                                            </connections>
+                                        </button>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6BG-T6-KC0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQ5-rA-L7Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Gqq-dw-Ucj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="864" y="76"/>
         </scene>
-        <!--View Controller-->
+        <!--DiscoverPage-->
         <scene sceneID="ECf-LV-Wdq">
             <objects>
-                <viewController id="w2Z-rD-fRc" sceneMemberID="viewController">
+                <viewController definesPresentationContext="YES" id="w2Z-rD-fRc" userLabel="DiscoverPage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4BR-gW-5Hl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GY0-QC-jhe">
+                                <rect key="frame" x="173.5" y="410.5" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlI-hO-6nU">
+                                <rect key="frame" x="0.0" y="775" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.94999999999999996" height="1"/>
+                                <items>
+                                    <barButtonItem width="120" style="plain" id="b73-r7-OPJ">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Yja-kr-qze">
+                                            <rect key="frame" x="20" y="7" width="120" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                                            <state key="normal" title="Messages"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="6Lk-LM-UJV"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="120" style="plain" id="oR4-nS-iCl">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nPL-6c-Fd0">
+                                            <rect key="frame" x="140" y="7" width="120" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                            <state key="normal" title="Profile"/>
+                                            <connections>
+                                                <segue destination="QB6-L0-lQL" kind="presentation" id="lQg-ur-6tz"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="120" style="plain" id="Tr7-fF-1zH">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="fch-no-eSY">
+                                            <rect key="frame" x="274" y="7" width="120" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                            <state key="normal" title="Discover"/>
+                                        </button>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="e7L-C3-gdW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GY0-QC-jhe" firstAttribute="centerX" secondItem="4BR-gW-5Hl" secondAttribute="centerX" id="TUV-OX-5h0"/>
+                            <constraint firstItem="GY0-QC-jhe" firstAttribute="centerY" secondItem="4BR-gW-5Hl" secondAttribute="centerY" id="a9C-4V-XUj"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="SsU-La-pE8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5lw-42-uUF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1569" y="94"/>
+            <point key="canvasLocation" x="2006" y="76"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zDh-dL-LHb"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
