@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
    
- 
     @IBOutlet weak var inputName: UITextField!
+    
    
     @IBOutlet weak var outputName: UILabel!
     
@@ -22,10 +22,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
 
 }
