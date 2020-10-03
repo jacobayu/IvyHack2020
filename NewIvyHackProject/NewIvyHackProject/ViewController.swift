@@ -10,6 +10,14 @@ import UIKit
 class ViewController: UIViewController {
 
 
+<<<<<<< HEAD
+=======
+   
+
+    
+   
+
+
 
     @IBOutlet weak var inputName: UITextField!
 
@@ -20,9 +28,15 @@ class ViewController: UIViewController {
         outputName.text = inputName.text
     }
 
+>>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+<<<<<<< HEAD
+  
+=======
+
 
     @IBAction func homeToMessageButton(_ sender: Any) {
         performSegue(withIdentifier: "homeToMessagesSegue", sender: self)
@@ -34,5 +48,7 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "homeToDiscoverSegue", sender: self)
 
     }
+>>>>>>> dff7bbcee9b98bf6215c9a812ce871c68690a725
+
 
 }
