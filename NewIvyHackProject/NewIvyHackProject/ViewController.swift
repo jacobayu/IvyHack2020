@@ -9,11 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+ 
+    @IBOutlet weak var inputName: UITextField!
+   
+    @IBOutlet weak var outputName: UILabel!
+    
+
+    @IBAction func changeLabel(_ sender: Any) {
+        outputName.text = inputName.text
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
 }
 
