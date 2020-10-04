@@ -11,11 +11,13 @@ class textMessagingViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     
-
+    @IBOutlet weak var personPicture: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLabel.text = UserDefaults.standard.object(forKey: "targetPersonText") as? String
+        personPicture.image = UserDefaults.standard.object(forKey: "personPicture") as? UIImage
         // Do any additional setup after loading the view.
     }
     

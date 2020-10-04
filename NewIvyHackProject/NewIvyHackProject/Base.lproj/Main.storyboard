@@ -561,9 +561,13 @@
                     <tabBarItem key="tabBarItem" title="Add" image="addFriend" id="gIT-Sa-gtC"/>
                     <connections>
                         <outlet property="lady1Label" destination="Ugd-ni-8sM" id="oH8-fg-Bqx"/>
+                        <outlet property="lady1Picture" destination="ZwQ-8D-ULY" id="Ja6-Mc-63N"/>
                         <outlet property="lady2Label" destination="uGG-Qp-hgS" id="bkx-Ot-EKI"/>
+                        <outlet property="lady2Picture" destination="ma5-Gb-LZb" id="h7E-p1-t8w"/>
                         <outlet property="lady3Label" destination="q73-zI-i1U" id="zkr-Hs-ncI"/>
+                        <outlet property="lady3Picture" destination="khZ-hc-fNc" id="kFB-Ws-87k"/>
                         <outlet property="man1Label" destination="UYH-lJ-p9z" id="2Ny-6c-n2h"/>
+                        <outlet property="man1Picture" destination="oc9-Tm-ETv" id="mBT-dH-NRZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xej-wz-sBi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -587,8 +591,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCm-Gz-vOe">
-                                <rect key="frame" x="20" y="54" width="79" height="23"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCm-Gz-vOe">
+                                <rect key="frame" x="20" y="54" width="50" height="31"/>
                                 <state key="normal" title="Button">
                                     <imageReference key="image" image="arrow.uturn.backward" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
@@ -654,12 +658,12 @@
                     </view>
                     <connections>
                         <outlet property="nameLabel" destination="iSS-4d-csx" id="3VZ-Q2-Cqu"/>
-                        <outlet property="personPicture" destination="NOM-3g-u9t" id="Xzr-0S-F65"/>
+                        <outlet property="personPicture" destination="NOM-3g-u9t" id="ANM-9u-7Vg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kav-Qm-V6O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2070" y="1130"/>
+            <point key="canvasLocation" x="2069.5652173913045" y="1129.6875"/>
         </scene>
         <!--chatsScreen-->
         <scene sceneID="yVx-3x-S1P">
@@ -957,8 +961,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="A6J-N5-cbB"/>
-        <segue reference="0ms-G5-UyK"/>
+        <segue reference="pD8-vi-1oR"/>
+        <segue reference="AIA-6S-3sz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="317" height="255"/>
