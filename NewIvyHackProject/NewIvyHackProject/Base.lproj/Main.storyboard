@@ -363,16 +363,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="lady1" translatesAutoresizingMaskIntoConstraints="NO" id="ZwQ-8D-ULY" userLabel="Lady1 Picture">
-                                <rect key="frame" x="20" y="141.5" width="100" height="109.5"/>
+                                <rect key="frame" x="20" y="131" width="100" height="120"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="pXm-b4-dci">
                                 <rect key="frame" x="24" y="274" width="354" height="2"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4b-1z-ySF">
-                                <rect key="frame" x="204" y="185.5" width="180" height="65.5"/>
+                                <rect key="frame" x="204" y="202" width="180" height="49"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Message" image="person.badge.plus" catalog="system">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
@@ -415,7 +415,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="710-3w-Hjy"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Message" image="person.badge.plus" catalog="system">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
@@ -439,7 +439,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ish-4R-cLq">
                                 <rect key="frame" x="208" y="650" width="180" height="51"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Message" image="person.badge.plus" catalog="system">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
@@ -461,7 +461,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FR6-mo-zk4">
                                 <rect key="frame" x="208" y="347" width="180" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Message" image="person.badge.plus" catalog="system">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
@@ -470,7 +470,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amelia Kik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugd-ni-8sM">
-                                <rect key="frame" x="130" y="141.5" width="135" height="36"/>
+                                <rect key="frame" x="130" y="131" width="135" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -492,7 +492,7 @@
                             <constraint firstItem="oc9-Tm-ETv" firstAttribute="top" secondItem="udr-IW-xEy" secondAttribute="topMargin" constant="445" id="3Xr-zv-hpR"/>
                             <constraint firstItem="ZwQ-8D-ULY" firstAttribute="leading" secondItem="1vI-bJ-TDo" secondAttribute="leading" constant="20" id="428-qr-EzU"/>
                             <constraint firstItem="FR6-mo-zk4" firstAttribute="top" secondItem="uGG-Qp-hgS" secondAttribute="bottom" constant="14" id="4et-jH-r68"/>
-                            <constraint firstItem="L4b-1z-ySF" firstAttribute="top" secondItem="Ugd-ni-8sM" secondAttribute="bottom" constant="8" symbolic="YES" id="4mV-zB-QhR"/>
+                            <constraint firstItem="L4b-1z-ySF" firstAttribute="top" secondItem="Ugd-ni-8sM" secondAttribute="bottom" constant="35" id="4mV-zB-QhR"/>
                             <constraint firstItem="1vI-bJ-TDo" firstAttribute="trailing" secondItem="QLR-Pa-pH4" secondAttribute="trailing" constant="30" id="77C-B4-dkj"/>
                             <constraint firstItem="208-eL-6HZ" firstAttribute="centerY" secondItem="udr-IW-xEy" secondAttribute="centerY" id="8G4-zY-jsg"/>
                             <constraint firstItem="FR6-mo-zk4" firstAttribute="bottom" secondItem="ma5-Gb-LZb" secondAttribute="bottom" id="9WK-wm-RUb"/>
@@ -526,7 +526,7 @@
                             <constraint firstItem="L4b-1z-ySF" firstAttribute="bottom" secondItem="ZwQ-8D-ULY" secondAttribute="bottom" id="Y3Q-jf-j8u"/>
                             <constraint firstItem="a4e-GV-2aK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sh8-PG-fJZ" secondAttribute="trailing" constant="8" symbolic="YES" id="bqF-em-K6G"/>
                             <constraint firstItem="khZ-hc-fNc" firstAttribute="top" secondItem="q73-zI-i1U" secondAttribute="top" id="bx5-FV-70x"/>
-                            <constraint firstItem="ZwQ-8D-ULY" firstAttribute="top" secondItem="GES-jK-FZa" secondAttribute="bottom" constant="30" id="cUs-1E-Gfz"/>
+                            <constraint firstItem="ZwQ-8D-ULY" firstAttribute="top" secondItem="GES-jK-FZa" secondAttribute="bottom" constant="19.5" id="cUs-1E-Gfz"/>
                             <constraint firstItem="a4e-GV-2aK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GES-jK-FZa" secondAttribute="trailing" constant="8" symbolic="YES" id="cYA-9W-4HX"/>
                             <constraint firstItem="uGG-Qp-hgS" firstAttribute="top" secondItem="pXm-b4-dci" secondAttribute="bottom" constant="21" id="dlT-pt-RJx"/>
                             <constraint firstItem="apq-t5-tcc" firstAttribute="top" secondItem="Ish-4R-cLq" secondAttribute="bottom" constant="25" id="e7o-ET-CTX"/>
@@ -957,9 +957,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pKp-Hi-5HD"/>
         <segue reference="A6J-N5-cbB"/>
-        <segue reference="AIA-6S-3sz"/>
+        <segue reference="0ms-G5-UyK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="317" height="255"/>
