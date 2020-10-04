@@ -33,19 +33,19 @@ class discoverViewController: UIViewController {
     }
     @IBAction func lady1MessageButton(_ sender: Any){
         UserDefaults.standard.setValue(lady1Label.text, forKey: "targetPersonText")
-        UserDefaults.standard.setValue(lady1Picture, forKey: "personPicture")
+        
         }
     @IBAction func lady2MessageButton(_ sender: Any) {
         UserDefaults.standard.setValue(lady2Label.text, forKey: "targetPersonText")
-        UserDefaults.standard.setValue(lady2Picture, forKey: "personPicture")
+        
     }
     @IBAction func man1MessageButton(_ sender: Any) {
         UserDefaults.standard.setValue(man1Label.text, forKey: "targetPersonText")
-        UserDefaults.standard.setValue(man1Picture, forKey: "personPicture")
+      
     }
     @IBAction func lady3MessageButton(_ sender: Any) {
         UserDefaults.standard.setValue(lady3Label.text, forKey: "targetPersonText")
-        UserDefaults.standard.setValue(lady3Picture, forKey: "personPicture")
+       
     }
     
 }

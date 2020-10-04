@@ -17,15 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path" translatesAutoresizingMaskIntoConstraints="NO" id="0Rx-yZ-Lvj" userLabel="yellowBackgroundImageView">
+                                <rect key="frame" x="-8" y="0.0" width="431" height="638"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="E3a-g0-1Tl" userLabel="manImageView">
                                 <rect key="frame" x="48.5" y="320.5" width="317" height="255"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get started!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ha-jS-afs" userLabel="startLabel">
-                                <rect key="frame" x="46" y="276.5" width="322" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqm-Gy-ac5" userLabel="startButton">
                                 <rect key="frame" x="32" y="783" width="350" height="50"/>
                                 <color key="backgroundColor" red="0.97433815810000002" green="0.45853402770000001" blue="0.24041199460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -40,12 +37,15 @@
                                     <segue destination="D8A-yK-fx6" kind="showDetail" id="QwE-AD-UmS"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path" translatesAutoresizingMaskIntoConstraints="NO" id="0Rx-yZ-Lvj" userLabel="yellowBackgroundImageView">
-                                <rect key="frame" x="-8" y="0.0" width="431" height="638"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Answer a few questions to build your profile" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgg-VF-HiS" userLabel="answerQuestionLabel">
-                                <rect key="frame" x="45" y="321" width="320" height="113"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer a few questions to build your profile" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgg-VF-HiS" userLabel="answerQuestionLabel">
+                                <rect key="frame" x="45" y="199" width="320" height="113"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get started!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ha-jS-afs" userLabel="startLabel">
+                                <rect key="frame" x="46" y="156" width="322" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -53,22 +53,22 @@
                         <viewLayoutGuide key="safeArea" id="isT-ML-h14"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Fgg-VF-HiS" firstAttribute="centerX" secondItem="zZO-DZ-C8H" secondAttribute="centerX" constant="-2" id="33n-g4-1ic"/>
+                            <constraint firstItem="Fgg-VF-HiS" firstAttribute="leading" secondItem="isT-ML-h14" secondAttribute="leading" constant="45" id="0fz-TZ-rGD"/>
+                            <constraint firstItem="isT-ML-h14" firstAttribute="trailing" secondItem="Fgg-VF-HiS" secondAttribute="trailing" constant="49" id="2hm-Iv-yfz"/>
                             <constraint firstItem="isT-ML-h14" firstAttribute="bottom" secondItem="Kqm-Gy-ac5" secondAttribute="bottom" constant="29" id="4Rh-12-W9G"/>
-                            <constraint firstItem="8ha-jS-afs" firstAttribute="centerX" secondItem="zZO-DZ-C8H" secondAttribute="centerX" id="Cry-ou-2VQ"/>
+                            <constraint firstItem="Fgg-VF-HiS" firstAttribute="trailing" secondItem="8ha-jS-afs" secondAttribute="trailing" constant="-3" id="DYC-B9-NeN"/>
                             <constraint firstItem="isT-ML-h14" firstAttribute="bottom" secondItem="0Rx-yZ-Lvj" secondAttribute="bottom" constant="224" id="Mwb-OV-5h0"/>
-                            <constraint firstItem="Fgg-VF-HiS" firstAttribute="top" secondItem="8ha-jS-afs" secondAttribute="bottom" constant="37.5" id="NdE-sN-LQd"/>
                             <constraint firstItem="Kqm-Gy-ac5" firstAttribute="leading" secondItem="isT-ML-h14" secondAttribute="leading" constant="32" id="Rcx-fK-fWG"/>
                             <constraint firstItem="E3a-g0-1Tl" firstAttribute="centerX" secondItem="zZO-DZ-C8H" secondAttribute="centerX" id="Wrd-KW-uBc"/>
-                            <constraint firstItem="isT-ML-h14" firstAttribute="trailing" secondItem="Fgg-VF-HiS" secondAttribute="trailing" constant="49" id="b7R-JO-Y9S"/>
+                            <constraint firstItem="8ha-jS-afs" firstAttribute="leading" secondItem="isT-ML-h14" secondAttribute="leading" constant="46" id="YgY-66-4Oq"/>
                             <constraint firstItem="E3a-g0-1Tl" firstAttribute="centerY" secondItem="zZO-DZ-C8H" secondAttribute="centerY" id="cMQ-zq-lCY"/>
+                            <constraint firstItem="Fgg-VF-HiS" firstAttribute="top" secondItem="isT-ML-h14" secondAttribute="top" constant="155" id="eWp-XB-4qz"/>
                             <constraint firstAttribute="trailing" secondItem="0Rx-yZ-Lvj" secondAttribute="trailing" constant="-9" id="fP2-gP-YtT"/>
                             <constraint firstItem="Kqm-Gy-ac5" firstAttribute="centerX" secondItem="E3a-g0-1Tl" secondAttribute="centerX" id="hlu-W8-suG"/>
-                            <constraint firstItem="E3a-g0-1Tl" firstAttribute="top" secondItem="Fgg-VF-HiS" secondAttribute="bottom" constant="-113.5" id="mMT-bI-y5v"/>
-                            <constraint firstItem="isT-ML-h14" firstAttribute="trailing" secondItem="Fgg-VF-HiS" secondAttribute="trailing" constant="49" id="qMA-eQ-8cQ"/>
                             <constraint firstItem="0Rx-yZ-Lvj" firstAttribute="leading" secondItem="zZO-DZ-C8H" secondAttribute="leading" constant="-8" id="tfo-8Q-pzk"/>
-                            <constraint firstItem="isT-ML-h14" firstAttribute="trailing" secondItem="8ha-jS-afs" secondAttribute="trailing" constant="46" id="tkK-ZC-udU"/>
+                            <constraint firstItem="8ha-jS-afs" firstAttribute="top" secondItem="isT-ML-h14" secondAttribute="top" constant="112" id="ujW-Hw-v65"/>
                             <constraint firstItem="0Rx-yZ-Lvj" firstAttribute="top" secondItem="zZO-DZ-C8H" secondAttribute="top" id="v1Z-93-Riu"/>
+                            <constraint firstItem="E3a-g0-1Tl" firstAttribute="top" secondItem="Fgg-VF-HiS" secondAttribute="bottom" constant="8.5" id="w8x-fZ-5Sj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qxC-MK-Hk1"/>
@@ -378,6 +378,7 @@
                                 </state>
                                 <connections>
                                     <action selector="lady1MessageButton:" destination="wam-FO-0tj" eventType="touchUpInside" id="1fY-56-pVk"/>
+                                    <segue destination="wRz-nG-and" kind="showDetail" id="Xdr-Vm-c65"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lady2" translatesAutoresizingMaskIntoConstraints="NO" id="ma5-Gb-LZb">
@@ -421,6 +422,7 @@
                                 </state>
                                 <connections>
                                     <action selector="man1MessageButton:" destination="wam-FO-0tj" eventType="touchUpInside" id="gfE-91-OrN"/>
+                                    <segue destination="wRz-nG-and" kind="showDetail" id="2pm-Mn-D7y"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lady3" translatesAutoresizingMaskIntoConstraints="NO" id="khZ-hc-fNc">
@@ -445,7 +447,7 @@
                                 </state>
                                 <connections>
                                     <action selector="lady3MessageButton:" destination="wam-FO-0tj" eventType="touchUpInside" id="jfs-JI-9bE"/>
-                                    <segue destination="wRz-nG-and" kind="showDetail" id="QOL-qC-SIW"/>
+                                    <segue destination="wRz-nG-and" kind="showDetail" id="MxO-O3-GWF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GES-jK-FZa">
@@ -467,6 +469,7 @@
                                 </state>
                                 <connections>
                                     <action selector="lady2MessageButton:" destination="wam-FO-0tj" eventType="touchUpInside" id="LYN-mS-pgt"/>
+                                    <segue destination="wRz-nG-and" kind="showDetail" id="HO1-wf-LPr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amelia Kik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugd-ni-8sM">
@@ -579,13 +582,13 @@
             <objects>
                 <viewController id="wRz-nG-and" userLabel="textingScreen" customClass="textMessagingViewController" customModule="NewIvyHackProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2kd-LU-b60">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Color-1" translatesAutoresizingMaskIntoConstraints="NO" id="NOM-3g-u9t">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lady1" translatesAutoresizingMaskIntoConstraints="NO" id="NOM-3g-u9t">
                                 <rect key="frame" x="294" y="20" width="100" height="100"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name goes here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSS-4d-csx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name goes here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSS-4d-csx">
                                 <rect key="frame" x="78" y="54" width="195" height="33"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
                                 <nil key="textColor"/>
@@ -597,6 +600,9 @@
                                     <imageReference key="image" image="arrow.uturn.backward" catalog="system" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3Tc-3K-kva" kind="showDetail" id="whU-9z-34p"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="A4j-Yl-btD">
                                 <rect key="frame" x="35.5" y="139" width="343" height="2"/>
@@ -740,7 +746,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6F7-3p-3c6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-442.02898550724643" y="1067.4107142857142"/>
+            <point key="canvasLocation" x="409" y="1110"/>
         </scene>
         <!--aboutYou-->
         <scene sceneID="cva-YN-XwI">
@@ -965,6 +971,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="whU-9z-34p"/>
+        <segue reference="Xdr-Vm-c65"/>
         <segue reference="pD8-vi-1oR"/>
         <segue reference="AIA-6S-3sz"/>
     </inferredMetricsTieBreakers>
