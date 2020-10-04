@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131877362529BBD600088C85 /* getStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131877352529BBD600088C85 /* getStartedViewController.swift */; };
+		131877392529BC5D00088C85 /* getNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131877382529BC5D00088C85 /* getNameViewController.swift */; };
+		1318773F2529BCC900088C85 /* getInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1318773E2529BCC900088C85 /* getInfoViewController.swift */; };
+		131877422529BD0800088C85 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131877412529BD0800088C85 /* profileViewController.swift */; };
+		131877462529BD2600088C85 /* chatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131877452529BD2600088C85 /* chatsViewController.swift */; };
+		1318774A2529BD3B00088C85 /* discoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131877492529BD3B00088C85 /* discoverViewController.swift */; };
+		1318774E2529D87000088C85 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1318774D2529D87000088C85 /* person.swift */; };
+		131877512529DFAF00088C85 /* textMessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131877502529DFAF00088C85 /* textMessagingViewController.swift */; };
 		135A22472529032400091237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A22462529032400091237 /* AppDelegate.swift */; };
 		135A22492529032400091237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A22482529032400091237 /* SceneDelegate.swift */; };
 		135A224B2529032400091237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A224A2529032400091237 /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131877352529BBD600088C85 /* getStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getStartedViewController.swift; sourceTree = "<group>"; };
+		131877382529BC5D00088C85 /* getNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getNameViewController.swift; sourceTree = "<group>"; };
+		1318773E2529BCC900088C85 /* getInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getInfoViewController.swift; sourceTree = "<group>"; };
+		131877412529BD0800088C85 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		131877452529BD2600088C85 /* chatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatsViewController.swift; sourceTree = "<group>"; };
+		131877492529BD3B00088C85 /* discoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverViewController.swift; sourceTree = "<group>"; };
+		1318774D2529D87000088C85 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		131877502529DFAF00088C85 /* textMessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textMessagingViewController.swift; sourceTree = "<group>"; };
 		135A22432529032400091237 /* NewIvyHackProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewIvyHackProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A22462529032400091237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		135A22482529032400091237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1318773C2529BC9800088C85 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				131877502529DFAF00088C85 /* textMessagingViewController.swift */,
+				131877492529BD3B00088C85 /* discoverViewController.swift */,
+				1318774D2529D87000088C85 /* person.swift */,
+				131877452529BD2600088C85 /* chatsViewController.swift */,
+				131877412529BD0800088C85 /* profileViewController.swift */,
+				1318773E2529BCC900088C85 /* getInfoViewController.swift */,
+				135A224A2529032400091237 /* ViewController.swift */,
+				131877382529BC5D00088C85 /* getNameViewController.swift */,
+				131877352529BBD600088C85 /* getStartedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		135A223A2529032400091237 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +90,8 @@
 			children = (
 				135A22462529032400091237 /* AppDelegate.swift */,
 				135A22482529032400091237 /* SceneDelegate.swift */,
-				135A224A2529032400091237 /* ViewController.swift */,
 				135A224C2529032400091237 /* Main.storyboard */,
+				1318773C2529BC9800088C85 /* ViewControllers */,
 				135A224F2529032500091237 /* Assets.xcassets */,
 				135A22512529032500091237 /* LaunchScreen.storyboard */,
 				135A22542529032500091237 /* Info.plist */,
@@ -139,7 +171,15 @@
 			files = (
 				135A224B2529032400091237 /* ViewController.swift in Sources */,
 				135A22472529032400091237 /* AppDelegate.swift in Sources */,
+				131877422529BD0800088C85 /* profileViewController.swift in Sources */,
+				1318774A2529BD3B00088C85 /* discoverViewController.swift in Sources */,
 				135A22492529032400091237 /* SceneDelegate.swift in Sources */,
+				1318773F2529BCC900088C85 /* getInfoViewController.swift in Sources */,
+				131877512529DFAF00088C85 /* textMessagingViewController.swift in Sources */,
+				1318774E2529D87000088C85 /* person.swift in Sources */,
+				131877392529BC5D00088C85 /* getNameViewController.swift in Sources */,
+				131877462529BD2600088C85 /* chatsViewController.swift in Sources */,
+				131877362529BBD600088C85 /* getStartedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
