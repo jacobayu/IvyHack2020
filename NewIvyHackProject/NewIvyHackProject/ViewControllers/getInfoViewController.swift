@@ -38,6 +38,7 @@ class getInfoViewController: UIViewController {
                 UserDefaults.standard.setValue("male", forKey: "getGender")
             case 1:
                 UserDefaults.standard.setValue("female", forKey: "getGender")
+            case 2: UserDefaults.standard.setValue("non-binary", forKey: "getGender")
         default:
             break;
         }
